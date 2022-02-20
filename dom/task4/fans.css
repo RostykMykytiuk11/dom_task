@@ -1,0 +1,109 @@
+body{
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    border-bottom: 2px solid rgb(41, 80, 139);
+    color: rgb(41, 80, 139);
+    font-weight: 600;
+    transition: 0.1s all linear;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    
+       
+}
+.menu_list{
+    display: flex;
+    list-style: none;
+    align-items: center;   
+}
+.menu_list>li{
+    
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 30px;
+}
+.logo{
+    font-size: 35px;
+    cursor: pointer;
+    position: fixed;
+    right:250px;
+    top:5px;   
+}
+
+.menu_item_list{
+    position: absolute;
+    list-style: none;
+    top: 44px;
+    left:85px;
+    display: none;
+    color:black;
+}
+
+
+
+li{  
+    text-align: center;  
+}
+
+.menu_item:hover .menu_item_list{
+    display: block;  
+}
+
+li:hover{
+    border-bottom: 2px solid rgb(41, 80, 139);
+    color: rgb(41, 80, 139);
+    font-weight: 600;
+    transition: 0.1s all linear;    
+}
+.fans{
+    height:100vh;
+    background-color:  burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coment{
+    max-width: 500px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:white;
+}
+.coment_date{
+    border-bottom: 2px solid black;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.add_coment{
+    padding-top: 30px;
+    color:black;
+}
+.com{
+    width: 200px;
+    height:200px;
+}
+.add_btn{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+.add_btn:hover{
+    height:60px;
+    width:150px;
+    font-weight: 700;
+    transition: 0.1s all linear ;
+}

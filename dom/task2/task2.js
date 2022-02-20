@@ -1,0 +1,14 @@
+const hyper = document.querySelector("h1");
+const divs = document.querySelectorAll("p");
+const list = document.querySelector("#myList");
+const lii = document.querySelectorAll("li");
+const spn = document.querySelector("span");
+hyper.style.backgroundColor="green";
+hyper.style.width ="fit-content";
+divs[0].style.fontWeight="bold";
+divs[1].style.color="red";
+divs[2].style.textDecoration="underline";
+divs[3].style.fontStyle="italic";
+list.style.listStyle="none";
+lii.forEach(liii =>(liii.style.display="inline-block"));
+spn.style.display = "none";
